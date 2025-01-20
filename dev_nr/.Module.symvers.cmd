@@ -1,0 +1,1 @@
+savedcmd_/home/archie/Repos/Linux-Kernel-Module/dev_nr/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/archie/Repos/Linux-Kernel-Module/dev_nr/Module.symvers -T /home/archie/Repos/Linux-Kernel-Module/dev_nr/modules.order -i Module.symvers -e 
