@@ -6,7 +6,7 @@ sudo insmod <modulename>.ko
 
 Unload kernel module:
 ```
-sudo insmod <modulename>.ko
+sudo rmmod <modulename>.ko
 ```
 
 
