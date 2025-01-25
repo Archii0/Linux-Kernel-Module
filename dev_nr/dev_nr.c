@@ -32,12 +32,13 @@ static int __init ModuleInit(void) {
     int retval;
     printk("Hello, Kernel!\n");
 
+    // unregister_chrdev(MYMAJOR, "my_dev_nr");
+
     retval = register_chrdev(MYMAJOR, "my_dev_nr", &fops);
     if (retval == 0) {
         printk("dev_nr - registered device number major: %d, minor: %d\n",
                MYMAJOR, 0);
-    }
-    if (retval > 0) {
+    } else if (retval > 0) {
         printk("dev_nr - registered device number major: %d, minor: %d\n",
                retval >> 20, retval & 0xfffff);
     } else {
