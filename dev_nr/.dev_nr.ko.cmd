@@ -1,1 +1,0 @@
-savedcmd_/home/archie/Repos/Linux-Kernel-Module/dev_nr/dev_nr.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/archie/Repos/Linux-Kernel-Module/dev_nr/dev_nr.ko /home/archie/Repos/Linux-Kernel-Module/dev_nr/dev_nr.o /home/archie/Repos/Linux-Kernel-Module/dev_nr/dev_nr.mod.o
